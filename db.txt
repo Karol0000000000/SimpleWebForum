@@ -1,0 +1,4 @@
+uzytkownik: id, login, haslo(MD5), rola(int11), data(timestamp)
+rola: id, rola
+temat: id(int11),tytul varchar(255),tresc(text),data,uzytkownik(int11)
+wpis: id,tresc(text), data, temat(int11),uzytkownik(int11)
